@@ -425,6 +425,31 @@ footer {
     cursor: pointer;
 }
 
+/* ヒーロー文字を右からスライドイン */
+#hero h2 {
+    animation: slideInRight 1s ease-out;
+}
+
+.hero-subtitle {
+    animation: slideInRight 1s ease-out;
+    animation-delay: 0.3s;
+    animation-fill-mode: backwards;
+}
+
+/* 右から入ってくる動き */
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
 /* スマホ用 */
 @media (max-width: 768px) {
 
