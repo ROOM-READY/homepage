@@ -356,6 +356,28 @@ footer {
     transition: right 0.3s ease;
 }
 
+/* 一番下の公式ラインボタン */
+.line-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 30px;
+
+    background: #06c755;
+    color: white;
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+
+    border-radius: 30px;
+
+    transition: 0.3s;
+}
+
+.line-button:hover {
+    background: #05a947;
+}
+
 /* メニューを開いた状態 */
 .menu-panel.open {
     right: 0;
